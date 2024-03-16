@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*https://paletadecores.com/paleta/2f2bad/ad2bad/e42692/f71568/f7db15/*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 30px;
+    background-color: #ad2bad;
+    flex-wrap: wrap;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li{
+    list-style: none;
+}
