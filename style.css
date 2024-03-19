@@ -1,30 +1,65 @@
 *{
     padding: 0px;
     margin: 0px;
-    /*https://paletadecores.com/paleta/2f2bad/ad2bad/e42692/f71568/f7db15/*/
+    /* https://paletadecores.com/paleta/1c0b2b/301c41/413b6b/5c65c0/6f95ff/ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .header{
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 30px;
-    background-color: #ad2bad;
-    flex-wrap: wrap;
-}
-
-.menu li a{
-    text-decoration: none;
-    margin-left: 15px;
-    color: white;
+    padding: 60px;/*Espaçamento interno*/
+    background-color: #413b6b;
 }
 
 .menu{
-    display: flex;
-    justify-content: space-between;
+    display: flex;/*Colocando itens lado a lado*/
+    justify-content: end;/**/
+}
+
+.menu li a{
+    text-decoration: none;/*Tirando a decoração de texto*/
+    margin-left: 15px;/*Espaçamento na esquerda*/
+    color: white;
 }
 
 .menu li{
-    list-style: none;
+    list-style: none;/*Tirando estilo de lista*/
 }
+
+.menu a:hover{
+    color: #6f95ff;
+    transition: 0.5s;
+}
+
+#sessao{
+    background-color: #6f95ff;
+    padding: 200px;
+}
+
+#sessao p{
+    font-size: 30px;
+    color: white;
+}
+
+#sessao button{
+    border-style: solid;
+    border-color: #1c0b2b ;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 15px;
+
+}
+
+h2{
+    font-size: 70px;
+    text-transform: uppercase;/*Deixando a letra maiuscula*/
+}
+
+span{
+    color: transparent;
+    font-size: 70px;
+    text-transform: uppercase;/*Deixando a letra maiuscula*/
+    -webkit-text-stroke: 3px black;/*Colocando borda branca*/
+}
+
+
+
