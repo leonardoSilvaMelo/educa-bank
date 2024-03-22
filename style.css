@@ -1,8 +1,9 @@
 *{
     padding: 0px;
     margin: 0px;
-    /* https://paletadecores.com/paleta/1c0b2b/301c41/413b6b/5c65c0/6f95ff/ */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* https://paletadecores.com/paleta/1c0b2b/301c41/413b6b/5c65c0/6f95ff/ */
+    /*https://cssgradient.io/*/
 }
 
 .header{
@@ -31,35 +32,61 @@
 }
 
 #sessao{
-    background-color: #6f95ff;
-    padding: 200px;
+    padding: 15rem;
+    background: linear-gradient(180deg, #c0cdcf 8.33%, rgba(90,168,168) 100%);
 }
 
 #sessao p{
-    font-size: 30px;
-    color: white;
+    font-size: 2.3em;
+    margin: 20px 0;
+}
+
+#sessao h2{
+    font-size: 3em; /*32px*/
+    color: rgba(0, 0, 0, 0.719);
 }
 
 #sessao button{
-    border-style: solid;
-    border-color: #1c0b2b ;
-    border-radius: 20px;
-    padding: 15px;
-    margin-top: 15px;
-
+    padding: 20px;
+    border-radius: 50px;
+    border-color: rgb(19, 153, 180);
+    width: 20em;
+    cursor: pointer;
 }
 
-h2{
-    font-size: 70px;
-    text-transform: uppercase;/*Deixando a letra maiuscula*/
+#sessao button a{
+    text-decoration: none;
+    color: rgb(19, 153, 108);
 }
 
-span{
-    color: transparent;
-    font-size: 70px;
-    text-transform: uppercase;/*Deixando a letra maiuscula*/
-    -webkit-text-stroke: 3px black;/*Colocando borda branca*/
+#app{
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+    display: flex;
+    justify-content: space-around;
 }
 
+#app div button{
+    padding: 20px;
+    border-radius: 50px;
+    border-color: rgb(19, 153, 108);
+    width: 20em;
+    cursor: pointer;
+}
 
+#app button a{
+    text-decoration: none;
+    color: rgb(19, 153, 108);
+}
 
+#app div p{
+    font-size: 2.8em;
+    margin-bottom: 20px;
+}
+
+#app div img{
+    width: 25rem;
+    height: 25rem;
+    margin-top: -70px;
+    margin-left: 70px;
+}
