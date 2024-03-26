@@ -90,3 +90,60 @@
     margin-top: -70px;
     margin-left: 70px;
 }
+
+#container{
+    padding: 15rem;
+    background-color: rgb(226, 233, 233);
+}
+
+#container h2{
+    font-size: 40px;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.767);
+    margin-top: -20rem;
+}
+
+#container p{
+    font-size: 1.4rem;
+    color: rgb(34, 34, 74);
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+
+#container button{
+    padding: 20px;
+    border-radius: 50px;
+    border-color: rgba(0, 0, 255, 0.767);
+    width: 20em;
+}
+
+#container button:hover{
+    background-color: rgba(0, 0, 255, 0.767);
+    color: white;
+    transition: 0.9s;
+}
+
+#container button a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.767);
+}
+
+#container button a:hover{
+    background-color: rgba(0, 0, 255, 0.767);
+    color: white;
+    transition: 0.9s;
+}
+
+.line{
+    width: 70%;
+    margin: 3rem auto;
+}
+
+#container img{
+    width: 45rem;
+    margin-left: 50px;
+}
+
+#container-cofre{
+    background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5,39, 101, 0.745) 100%), url(./image/img\ cofre\ fundo.jpg);
+}
