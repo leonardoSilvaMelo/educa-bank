@@ -52,11 +52,14 @@
     border-color: rgb(19, 153, 180);
     width: 20em;
     cursor: pointer;
+    color: rgb(19, 153, 180);
 }
 
-#sessao button a{
-    text-decoration: none;
-    color: rgb(19, 153, 108);
+#sessao button:hover{
+    background-color: rgb(19, 153, 180);
+    color: white;
+    transition: 0.8s;
+    border-color: white;
 }
 
 #app{
@@ -72,11 +75,14 @@
     border-color: rgb(19, 153, 108);
     width: 20em;
     cursor: pointer;
+    color: rgb(19, 153, 108);
 }
 
-#app button a{
-    text-decoration: none;
-    color: rgb(19, 153, 108);
+#app button:hover{
+    background-color: rgb(19, 153, 108);
+    color: white;
+    border-color: white;
+    transition: 0.8s;
 }
 
 #app div p{
@@ -113,25 +119,16 @@
 #container button{
     padding: 20px;
     border-radius: 50px;
-    border-color: rgba(0, 0, 255, 0.767);
+    border-color: rgba(43, 43, 250, 0.767);
     width: 20em;
+    color: rgba(43, 43, 250, 0.767);
 }
 
 #container button:hover{
-    background-color: rgba(0, 0, 255, 0.767);
+    background-color: rgba(43, 43, 250, 0.767);
     color: white;
     transition: 0.9s;
-}
-
-#container button a{
-    text-decoration: none;
-    color: rgba(0, 0, 255, 0.767);
-}
-
-#container button a:hover{
-    background-color: rgba(0, 0, 255, 0.767);
-    color: white;
-    transition: 0.9s;
+    border-color: white;
 }
 
 .line{
@@ -146,4 +143,59 @@
 
 #container-cofre{
     background: linear-gradient(180deg, #0c16a364 8.33%, rgba(5,39, 101, 0.745) 100%), url(./image/img\ cofre\ fundo.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 15rem;
+
+}
+
+#container-cofre img{
+    width: 20rem;
+    height: auto;
+    margin-top: 9rem;
+}
+
+#container-cofre h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#container-cofre p{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+
+#footer-contatos{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+#footer-contatos img{
+    width: 16rem;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+#footer-contatos div{
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-contatos a{
+    text-decoration: none;
+    color: white;
+}
+
+#footer-contatos a:hover{
+    color: rgb(187, 6, 157);
+    transition: 0.9s;
 }
