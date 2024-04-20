@@ -199,3 +199,50 @@
     color: rgb(187, 6, 157);
     transition: 0.9s;
 }
+
+@media screen and (max-width:480px){
+
+}
+
+@media screen and (max-width:767px){
+
+}
+
+@media screen and (max-width:991px) {
+
+    #sessao a button{
+        width: 14rem;
+        padding: 0.9rem;
+    }
+
+    #sessao p{
+        font-size: 1.5rem;  
+        margin: 15px 0; 
+    }
+
+    #app div a button{
+        width: 17rem;
+        padding: 0.9rem;
+    }
+
+    #app{
+        padding: 30vh;
+    }
+
+    #app div img{
+        width: 18rem;
+        height: auto;
+    }
+
+    #app p{
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width:1366px){
+
+}
+
+@media screen and (max-width:1920px){
+
+}
