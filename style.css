@@ -93,7 +93,7 @@
 #app div img{
     width: 25rem;
     height: 25rem;
-    margin-top: -70px;
+    margin-top: -10px;
     margin-left: 70px;
 }
 
@@ -206,6 +206,26 @@
 
 @media screen and (max-width:767px){
 
+    #sessao p{
+        font-size: 1.3rem;
+    }
+
+    #app{
+        height: 15vh;
+    }
+
+    #app div p{
+        font-size: 1.3rem;
+    }
+
+    #app div img{
+        width: 10rem;
+        height: auto;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+    
 }
 
 @media screen and (max-width:991px) {
@@ -221,8 +241,8 @@
     }
 
     #app div a button{
-        width: 17rem;
-        padding: 0.9rem;
+        width: 17em;
+        padding: 15px;
     }
 
     #app{
@@ -234,8 +254,32 @@
         height: auto;
     }
 
-    #app p{
-        font-size: 1.8rem;
+    #app div p{
+        font-size: 1.4rem;
+    }
+
+    #container a button{
+        width: 14rem;
+        padding: 0.9rem;
+    }
+
+    #container img{
+        width: 25rem;
+    }
+
+    #container-cofre img{
+        width: 15rem;
+        height: 15rem;
+        margin-top: 1rem;
+    }
+
+    #container-cofre p{
+        font-size: 0.9rem;
+        padding: 1rem;
+    }
+
+    #container-cofre h2{
+        font-size: 25px;
     }
 }
 
