@@ -204,14 +204,28 @@
 
 }
 
-@media screen and (max-width:767px){
+
+
+
+@media screen and (max-width: 700px){
+
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px){
 
     #sessao p{
         font-size: 1.3rem;
     }
 
+
+
     #app{
-        height: 15vh;
+        padding: 15vh;
     }
 
     #app div p{
@@ -219,14 +233,44 @@
     }
 
     #app div img{
-        width: 10rem;
+        width: 5rem;
         height: auto;
-        margin-left: 30px;
+        margin-left: 3rem;
         margin-top: -30px;
     }
 
-    
+
+    #container h2{
+        font-size: 2.1rem;
+    }
+
+    #container p{
+        text-align: left;
+    }
+
+
+    #container img{
+        margin-left: -3rem;
+    }
+
+
+
+    #container-cofre{
+        padding: 15vh;
+    }
+
+    #container-cofre img{
+        width: 9rem;
+    }
+
+
+
+    #footer-contatos p{
+        font-size: 0.9rem;
+    }
 }
+
+
 
 @media screen and (max-width:991px) {
 
@@ -241,12 +285,12 @@
     }
 
     #app div a button{
-        width: 17em;
+        width: 16em;
         padding: 15px;
     }
 
     #app{
-        padding: 30vh;
+        padding: 20vh;
     }
 
     #app div img{
